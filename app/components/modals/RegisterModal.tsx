@@ -1,7 +1,6 @@
 'use client';
 import axios from "axios";
 import emailjs from "@emailjs/browser";
-emailjs.init('oS8jdFbTkhVLsKXUJ')
 import { AiFillGithub } from "react-icons/ai";
 import { signIn } from "next-auth/react";
 import { FcGoogle } from "react-icons/fc";
@@ -48,7 +47,7 @@ const RegisterModal= () => {
       toast.success('Registered!');
       registerModal.onClose();
       loginModal.onOpen();
-      emailjs.send('service_ab3cbf7', 'template_gjv6a4m',  {
+      emailjs.send('', '',  {
         to_email: data.email, // Use the user's entered email address
         from_name: 'H-Connect', // You can customize this
         message: 'Welcome to H-Connect! You have successfully registered For .', // You can customize this

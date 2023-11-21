@@ -52,10 +52,10 @@ const LoginModal = () => {
 
       if (callback?.ok) {
         toast.success('Logged in');
-        emailjs.send('service_ab3cbf7', 'template_yf2pluw', {
+        emailjs.send('', '', {
           to_email: data.email, // Replace with the user's email
           message: 'Welcome to H-Connect! You have successfully logged in For H-Connect , if its not you please report to ctc in 24 hours .'
-        }, 'oS8jdFbTkhVLsKXUJ')
+        }, '')
           .then(() => {
             console.log('Email sent successfully!');
           })
