@@ -1,4 +1,4 @@
-# H-Connect 
+l# H-Connect 
 ## Full Stack Hostel Booking System  
 
 ### Prerequisites
@@ -17,7 +17,7 @@ git clone https://github.com/AntonioErdeljac/next13-airbnb-clone.git
 npm i
 ```
 
-### Setup .env file
+### .env file setup
 
 
 ```js
