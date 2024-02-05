@@ -1,4 +1,4 @@
-l# H-Connect 
+# H-Connect 
 ## Full Stack Hostel Booking System  
 
 ### Prerequisites
